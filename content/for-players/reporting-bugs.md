@@ -26,7 +26,7 @@ If you cannot find any similar reported bug, please collect as much relevant inf
 
 - Luanti version (ex. "0.4.17.1", "5.1.1", "5.1.0-dev-numbers")
   - This is displayed in the window title bar.
-  - For advanced users: provide the output of `luanti--version`
+  - For advanced users: provide the output of `luanti --version`
 - Operating system and version (ex. "Ubuntu 18.04", "Windows 10", "Android 9")
   - Please be as precise as possible.
 

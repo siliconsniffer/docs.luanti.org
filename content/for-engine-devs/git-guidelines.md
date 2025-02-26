@@ -43,7 +43,7 @@ Tell people openly what you do, and if someone finds a problem in what you do, a
 
 If you have a **small patch**, fixing some compiler error or other trivial mistake, notify about fixing it on #luanti-dev, wait for 5...15 minutes and push it. To save time, you should notify when _finding_ the problem, not when _having it fixed_. If someone asks something about it, delay pushing and link the patch \[4\] or tell whatever else people want to know.
 
-Rule 1 is **only** applied to the `luanti/luanti` and `luanti/minetest_game` repositories. For the other repos apply some common sense: Check who last worked on it or who wrote most of the code (if applicable), consider consulting them for changes especially if they're large. If nobody has cared about a repo for a long time you don't have to worry either.
+Rule 1 is **only** applied to the [luanti-org/luanti](https://github.com/luanti-org/luanti) and [luanti-org/minetest_game](https://github.com/luanti-org/minetest_game) repositories. For the other repos apply some common sense: Check who last worked on it or who wrote most of the code (if applicable), consider consulting them for changes especially if they're large. If nobody has cared about a repo for a long time you don't have to worry either.
 
 #### Notes
 
