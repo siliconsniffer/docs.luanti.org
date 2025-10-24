@@ -265,3 +265,19 @@ and possibly a bit of refactoring, to resolve properly.
 Often, it might makes sense to postpone the call to the first server step
 via `core.after(0, my_mod_step)`.
 (A common cause is that some mod "step" function is run initially at mod load time and iterates over connected players.)
+
+## Tail calls
+
+In Lua, a function call of the form `return bar(...)` is called a *tail call*.
+It leaves no trace on the stack: Lua jumps straight to the body of `bar`.
+This means `bar` will be missing in stack traces, which will instead blame the caller, say `foo`, of `bar`:
+
+```lua
+function foo() return bar() end
+function bar() error("oops") end
+foo() -- oops: stack traceback: [...] in function 'foo'
+```
+
+The same phenomenon happens with warnings that try to blame a source location.
+A frequent offender is the profiler, which wraps many functions for instrumentation.
+To get useful warning messages, disable the profiler.
