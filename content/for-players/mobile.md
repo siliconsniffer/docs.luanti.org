@@ -1,11 +1,11 @@
 ---
-title: Mobile (for players)
+title: Mobile
 aliases:
   - /Accessing_Android_Data_Directory
   - /accessing-android-data-directory
 ---
 
-# Mobile (for players)
+# Mobile
 
 Luanti supports mobile devices and can be played using a touchscreen.
 
