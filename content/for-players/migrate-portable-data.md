@@ -5,14 +5,14 @@ title: Migrating your data from portable builds on Windows
 # Migrating your data from portable builds on Windows
 
 Starting in December 2025 Luanti switched its distribution format
-from portable builds (`ZIP` archive) to a self-extracting launcher.
+from portable builds (`ZIP` archive) to a self-extracting installer.
 
 This guide will explain how you can copy your data (games, worlds, mods, ...)
 from a previous portable folder to the to the new location.
 
 #### 1. Run the new Luanti version
 
-First you need to start the downloaded `luanti-5.XX.0-win64.exe` file at least once.
+First you need to start the downloaded `luanti-5.XX.0.exe` file at least once.
 
 Navigate directly to the "About" tab and click on the "Open user data directory"
 button:
@@ -29,7 +29,7 @@ Next, select all elements and **delete** them as we will be overwriting them.
 
 #### 2. Copy files
 
-Use the file browser to navigate to the portable installation you have used previously.
+Use the file browser to navigate to the portable installation you have used before.
 
 Select the "cache", "games", "mod_data", "mods", "worlds" folders and the
 "minetest.conf" file and press **Ctrl+C** to copy them.
