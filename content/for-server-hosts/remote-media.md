@@ -68,15 +68,15 @@ done
 
 You should now have a folder called `media` with a bunch of hashed filenames and an `index.mth` file. This can then be moved into a folder for nginx to host.
 
+**In version 5.11.0 or before:**  
 Unfortunately nginx does not allow POST requests on static files, so to make nginx able to send back the `index.mth` file which gets requested with POST you need to add this to the configuration for the site:
 
 ```nginx
 error_page 405 =200 $uri;
 ```
 
-## See Also
+## See Also - **for version 5.11.0 or before**
 
 - [sfan5's remote media build script](https://gist.github.com/sfan5/6351560)
-- [Forum topic with comments](https://forum.luanti.org/viewtopic.php?f=3&t=9260)
 - [MtMediaServer](https://forum.luanti.org/viewtopic.php?f=14&t=17411)
 - [mt_media_collector](https://github.com/ShadowNinja/mt_media_collector)
