@@ -16,14 +16,14 @@ This Wiki page contains the meeting plans for upcoming meetings, and meeting not
 
 ## Upcoming Meetings
 
-## 2025-11-02
+## 2026-01-04
 
 **Remember to post meetings in the [GitHub discussions](https://github.com/orgs/luanti-org/discussions) in advance**
 
 Add your points here. Most important comes first.
 
 **Organization Discussion**
-- foo
+- Feature freeze and release 18 January to avoid stress to whom goes to FOSDEM (Zughy)
 
 **PR discussion/reviews**
 - bar
