@@ -1,5 +1,7 @@
 ---
 title: Docker / Container
+aliases:
+  - /for-server-hosts/setup/docker/
 ---
 
 # Docker / Container Configuration

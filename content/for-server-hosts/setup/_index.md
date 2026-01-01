@@ -31,6 +31,7 @@ Please see the respective guide for your platform:
 - [Linux](/for-server-hosts/setup/linux/)
 - [Windows](/for-server-hosts/setup/windows/)
 - [TrueNas](/for-server-hosts/setup/truenas/)
+- [Docker / Containers](/for-server-hosts/setup/containers/)
 
 ### Port forwarding
 
