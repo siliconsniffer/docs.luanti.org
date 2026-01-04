@@ -24,9 +24,10 @@ Add your points here. Most important comes first.
 
 **Organization Discussion**
 - Feature freeze and release 18 January to avoid stress to whom goes to FOSDEM (Zughy)
+- release an RC build
 
 **PR discussion/reviews**
-- bar
+- decide which feature PRs to still get into 5.15.0 (if any)
 
 Also consider:
 - ["One Approval" PRs](https://github.com/luanti-org/luanti/pulls?q=is%3Apr+is%3Aopen+label%3A%22One+approval+%E2%9C%85+%E2%97%BB%EF%B8%8F%22) and decide on whether to merge, request changes or close.
