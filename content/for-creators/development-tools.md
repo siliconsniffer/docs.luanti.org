@@ -53,7 +53,7 @@ In addition to this list, you can also see the [Development Tools](https://conte
 ## 3D models
 
 - [Blender](https://www.blender.org/): Essential for making animated models in Luanti, see [Using Blender](/for-creators/models/using-blender/).
-- [Blockbench](https://www.blockbench.net/): Useful for making static voxel models for Luanti, see [Using Blockbench](/using-blockbench/).
+- [Blockbench](https://www.blockbench.net/): Useful for making static voxel models for Luanti, see [Using Blockbench](/for-creators/models/using-blockbench/).
 
 ## Images
 
