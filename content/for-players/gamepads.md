@@ -11,9 +11,14 @@ Many players prefer using gamepads (aka controllers or joysticks) over a keyboar
 
 ## Built-in support
 
-Luanti has some experimental built-in support for gamepads but it is quite broken and doesn't work on most hardware. Even when it does work, it doesn't support using GUIs.
+### Version previous to 5.17
 
-There's plans to improve this in the future, but for now **it's recommended that you use an external program for controllers, and not Luanti**.
+Luanti has some experimental built-in support for gamepads but it is quite broken and doesn't work on most hardware. Even when it does work, it doesn't support using GUIs.
+**it's recommended that you use an external program for controllers, and not Luanti**.
+
+### Version 5.17 and greater
+
+Luanti ships with support for gamepads (using SDL), however it is recommended to use it only with a device that supports some other form of input for formspecs (GUI) or on games that do not involve a gui.
 
 ## External programs
 
