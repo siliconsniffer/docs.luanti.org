@@ -17,7 +17,9 @@ Being around 10000 lines of code, it contains:
 - The **main loop**: Invokes the client, the server, the environment and the rendering.
 - A bunch of wrappers for OS-dependent things, and utilities.
 
-NMPR has been made available at [<https://github.com/celeron55/minetest_nmpr>](https://github.com/celeron55/minetest_nmpr) (easiest to build). Older source release is [here (source)](http://c55.me/random/2013-01/minetest_10-10-24_16-33-41_wonderful.tar.gz) (build like [this](http://gist.github.com/4578183)). Also the [original win32 release](http://c55.me/random/2010-10/old/minetest-c55-win32-101024164856.zip) is available (works in wine).
+NMPR has been made available at https://github.com/celeron55/minetest_nmpr which is the easiest to build.
+
+The older source release for the corresponding revision is [available here](https://archive.org/download/minetest_old_sources_2010_archive/minetest_10-10-24_16%3A33%3A41_wonderful.zip) (apply [this patch for Linux](http://gist.github.com/4578183)), and the original win32 build [is available here](https://archive.org/download/minetest_old_releases_2010_through_2012_mostly_win32/2010-10-10_to_25/minetest-c55-win32-101024164856.zip) (works in Wine).
 
 ## Map (the voxels)
 
