@@ -20,7 +20,7 @@ The Luanti engine has very few base textures; these can be found under `your/pat
 
 ### Game Specific Textures
 
-Each game that you install to Luanti will have different texture requirements due to the mods that games creator will have used to create the game. For example, Minetest Game includes 31 mods as of ver 5.1, some of these mods will have texture requirements and some will not.  
+Each game that you install to Luanti will have different texture requirements due to the mods that games creator will have used to create the game. For example, Minetest Game includes 31 mods as of ver 5.1, some of these mods will have texture requirements and some will not.
 For example `your/path/to/luanti/games/minetest_game/mods/default/textures` has an extensive array of textures to support this mod, whereas `your/path/to/luanti/games/minetest_game/mods/spawn` has no textures to support the mod.
 
 ### Engine and Game Texture Pack
@@ -180,8 +180,8 @@ In order to edit textures, you'll need some kind of image editing software. Any 
 
 - [GIMP](https://www.gimp.org/) - Fully featured FOSS image editor tool. Might be overwhelming for a new user, however is very powerful if learned.
 - [Libresprite](https://libresprite.github.io/) - FOSS fork of Aseprite, specially designed for pixel art.
-- [Paint.NET](https://www.getpaint.net/download.html) - Windows-only image editor, like MS Paint but slightly more featured (supports e.g. transparency).
-- [Lospec's pixel software list with more options](http://lospec.com/pixel-art-software-list)
+- [Paint.NET](https://paint.net/download.html) - Windows-only image editor, like MS Paint but slightly more featured (supports e.g. transparency).
+- [Lospec's pixel software list with more options](https://lospec.com/pixel-art-software-list/)
 
 ### Creating Textures
 
@@ -221,10 +221,10 @@ description = This is a description for the Very Cool Texture pack.
 
 There are numerous places that run and use [Git](https://git-scm.com/) as a place for hosting your files online. The beauty of Git is it gives you version control and allows other users of Luanti to download and potentially add to your work in the future. Git is probably the best option for sharing texture packs however it can be a bit challenging to set up initially. Popular providers include:
 
-- [GitHub](http://github.com/)
+- [GitHub](https://github.com/)
 - [Codeberg](https://codeberg.org/)
-- [Gitlab](http://about.gitlab.com/)
-- [and many more...](http://en.wikipedia.org/wiki/Comparison_of_source-code-hosting_facilities)
+- [Gitlab](https://about.gitlab.com/)
+- [and many more...](https://en.wikipedia.org/wiki/Comparison_of_source-code-hosting_facilities)
 
 ### ContentDB
 
