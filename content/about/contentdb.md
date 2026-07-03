@@ -27,6 +27,6 @@ The main advantage of the website is that it contains more information to read, 
 
 ## On software freedom
 
-ContentDB generally only allows packages with content that is licensed under licenses that are considered Free by the FSF and/or the OSI. However there is currently at least an exception for non-free media licensed under Creative Commons licenses with restriction for non-commercial usage, which is allowed but will be hidden from the Luanti client by default and has appropriate warnings on its package page on the ContentDB website.
+ContentDB only allows packages with content that is licensed under licenses that are considered Free by the FSF and/or the OSI. Previously there was an exemption for non-free Creative Commons licenses which limit commercial use, but this is no longer allowed on ContentDB.
 
 For more information, see the [Non-free Licenses](https://content.luanti.org/help/non_free/) page on ContentDB as well as [§ 4. Licenses](https://content.luanti.org/policy_and_guidance/#4-licenses) in the Package Inclusion Policy.
