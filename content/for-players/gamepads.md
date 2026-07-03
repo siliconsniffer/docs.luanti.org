@@ -18,7 +18,7 @@ Luanti has some experimental built-in support for gamepads but it is quite broke
 
 ### Version 5.17 and greater
 
-Luanti ships with support for gamepads (using SDL), however it is recommended to use it only with a device that supports some other form of input for formspecs (GUI) or on games that do not involve a gui.
+Luanti has the start of gamepad support. You can use it to move and interact with the world, but not to use menus/GUIs. We recommend using it with another form of input for menus (like touchscreen or a mouse) or on games that do not involve menus. We plan on improving support in the future.
 
 ## External programs
 
