@@ -3846,7 +3846,7 @@ No official changelog exists yet, however you can find an unofficial one here: [
 - Added `minetest.register_decoration()` (_kwolekr_)
 - Added schematic support; new functions `minetest.place_schematic()` and `minetest.create_schematic()` (_kwolekr_)
 - Separated formspecs of furnace and chests to provide override by mods (_BlockMen_)
-- Added Lua VoxelManip (_kwolekr_) [http://forum.luanti.org/viewtopic.php?id=6396](http://forum.luanti.org/viewtopic.php?id=6396)
+- Added Lua VoxelManip (_kwolekr_) ([forum topic](https://forum.luanti.org/viewtopic.php?t=6396))
 - Added vector helpers (_ShadowNinja_)
 - Added `range` to item definition (_PilzAdam_)
 - Added `after_use` to item definition (_Novatux_)
@@ -3896,7 +3896,7 @@ No official changelog exists yet, however you can find an unofficial one here: [
 - Added sandstone bricks and desert stone bricks (_PilzAdam & VanessaE_)
 - Added coal block, crafted out of 9 coal lumps (_Zeg9_)
 - Added flowers to craft dyes; flowers and grass grow now on `dirt_with_grass` (_0gb.us, PilzAdam, VanessaE, ironzorg_)
-- Added farming mod; wheat can be used to bake bread and cotton can be used to craft wool (_PilzAdam_) [http://forum.luanti.org/viewtopic.php?id=6067](http://forum.luanti.org/viewtopic.php?id=6067)
+- Added farming mod; wheat can be used to bake bread and cotton can be used to craft wool (_PilzAdam_) ([forum topic](https://forum.luanti.org/viewtopic.php?t=6067))
 
 **Smaller gameplay tweaks**
 
@@ -3918,8 +3918,8 @@ No official changelog exists yet, however you can find an unofficial one here: [
 - Added icons to select games in menu; `menu/menu_<background/overlay/header/footer>.png` of selected game is used in the main menu (TP can use `<gameid>_menu_<background/overlay/header/footer>.png`) (_celeron55_)
 - Added `--videomodes` option to show available video modes (_kahrl_)
 - Added ability to play `main_menu.ogg` (`main_menu.<1-9>.ogg` are supported too; they are chosen randomly if present) in main menu (_RealBadAngel_)
-- Drop common mods system, _Survival_ and _Build_ game; minetest*game includes all common mods and the bones mod from \_Survival* now (_PilzAdam_) [http://forum.luanti.org/viewtopic.php?id=6034](http://forum.luanti.org/viewtopic.php?id=6034)
-- Changed mod system a bit: All user mods are installed in `$path_user/mods/` now; they can be enabled per world in the configure world window or in `world.mt` with `load_mod_<modname>` (_PilzAdam_) [http://forum.luanti.org/viewtopic.php?id=6066](http://forum.luanti.org/viewtopic.php?id=6066)
+- Drop common mods system, _Survival_ and _Build_ game; `minetest_game` includes all common mods and the bones mod from _Survival_ now (_PilzAdam_) ([forum topic](https://forum.luanti.org/viewtopic.php?t=6034))
+- Changed mod system a bit: All user mods are installed in `$path_user/mods/` now; they can be enabled per world in the configure world window or in `world.mt` with `load_mod_<modname>` (_PilzAdam_) ([forum topic](https://forum.luanti.org/viewtopic.php?t=6066))
 - Split `init.lua` of the default mod into several files (_PilzAdam_)
 - Moved scriptapi to a subfolder (_sapier, celeron55 & kahrl_)
 
